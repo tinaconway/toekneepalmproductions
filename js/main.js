@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'img/layla.jpg', title : '<div class="slide-content"><!-- <img class="logo3" src="img/logo.jpg"></div>', thumb : '', url : ''},
+											{image : 'img/layla.jpg', title : '<div class="slide-content"> <img class="logo3" src="img/logo.jpg"></div>', thumb : '', url : ''},
 											{image : 'img/dog.jpg', title : '<div class="slide-content"><img class="logo3" src="img/logo.jpg"></div>', thumb : '', url : ''},
 											{image : 'img/butterfly.jpg', title : '<div class="slide-content"><img class="logo3" src="img/logo.jpg"></div>', thumb : '', url : ''},
-											{image : 'img/beach.jpg', title : '<div class="slide-content"><img class="logo3" src="img/logo.jpg"></div>', thumb : '', url : ''}
+											{image : 'img/bird.jpg', title : '<div class="slide-content"><img class="logo3" src="img/logo.jpg"></div>', thumb : '', url : ''}
 									],
 
 		// Theme Options
