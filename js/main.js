@@ -77,11 +77,16 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-
-											{image : 'img/layla.jpg', title : '<div class="slide-content"> <img class="logo3" src="img/logo2.gif"></div>', thumb : '', url : ''},
-											{image : 'img/dog.jpg', title : '<div class="slide-content"><img class="logo3" src="img/logo2.gif"></div>', thumb : '', url : ''},
-											{image : 'img/butterfly.jpg', title : '<div class="slide-content"><img class="logo3" src="img/logo2.gif"></div>', thumb : '', url : ''},
-											{image : 'img/bird.jpg', title : '<div class="slide-content"><img class="logo3" src="img/logo2.gif"></div>', thumb : '', url : ''}
+											{image : 'img/slider5.jpg', title : '<div class="slide-content"> </div>', thumb : '', url : ''},
+											{image : 'img/slider6.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'img/slider4.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'img/slider9.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'img/slider3.jpg', title : '<div class="slide-content"> </div>', thumb : '', url : ''},
+											{image : 'img/slider1.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'img/slider2.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'img/slider7.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'img/slider8.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'img/slider2.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}
 
 									],
 
