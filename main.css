@@ -669,6 +669,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .about {
+	text-align: left;
 	color: black;
 }
 
