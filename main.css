@@ -1408,3 +1408,9 @@ footer .credits {
        -o-transition: none;
           transition: none;
 }
+
+@media (max-width: 779px) {
+	#aboutVid {
+		width: 100%;
+	}
+}
