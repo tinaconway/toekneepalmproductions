@@ -27,9 +27,6 @@
 <!-- Main Style -->
 <link href="main.css" rel="stylesheet">
 
-<!-- Supersized -->
-<link href="supersized.css" rel="stylesheet">
-<link href="supersized.shutter.css" rel="stylesheet">
 
 <!-- FancyBox -->
 <link href="jquery.fancybox.css" rel="stylesheet">
@@ -44,9 +41,7 @@
 <link href="bootstrap-responsive.min.css" rel="stylesheet">
 <link href="responsive.css" rel="stylesheet">
 
-<!-- Supersized -->
-<link href="supersized.css" rel="stylesheet">
-<link href="supersized.shutter.css" rel="stylesheet">
+
 
 <!-- Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
@@ -93,19 +88,20 @@
 
 <!-- Homepage Slider -->
 <div id="home-slider">
-    <div class="overlay"></div>
+  <iframe class="promo" src="https://www.youtube.com/embed/9KJ4d8I3ef8?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+<!--     <div class="overlay"></div>
 
-    <div class="slider-text">
-    	<div id="slidecaption"></div>
-    </div>
+<div class="slider-text">
+  <div id="slidecaption"></div>
+</div>
 
-	<div class="control-nav">
-        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-        <ul id="slide-list"></ul>
+  <div class="control-nav">
+    <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+    <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+    <ul id="slide-list"></ul>
 
-        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
-    </div>
+    <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+</div> -->
 </div>
 <!-- End Homepage Slider -->
 
@@ -156,6 +152,8 @@
                         <li><a href="#filter" data-option-value=".wedding">Wedding</a></li>
                         <li><a href="#filter" data-option-value=".commercial">Commercial / Promotional</a></li>
                         <li><a href="#filter" data-option-value=".music">Music Videos</a></li>
+                        <li><a href="#filter" data-option-value=".informative">PSA / Informative</a></li>
+
                     </ul>
                 </nav>
                 <!-- End Filter -->
@@ -255,6 +253,25 @@
                     <!-- Thumb Image and Description -->
                       <img class="fix-image" src="img/yoga.png" alt="Video">
                 </li>
+                <!-- Item Project and Filter Name -->
+                <li class="item-thumbs span3 wedding">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Meera and Navid" href="https://www.youtube.com/watch?v=uDnc2ddJr0Q">
+                        <span class="overlay-img"></span>
+                          <span class="overlay-img-thumb font-icon-plus"></span>
+                      </a>
+                      <!-- Thumb Image and Description -->
+                        <img class="fix-image" src="img/navid.png" alt="Video">
+                  </li>
+                <li class="item-thumbs span3 music">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Bad Luck - T.E.A.M." href="https://www.youtube.com/watch?v=eBtM5iXEpYE">
+                        <span class="overlay-img"></span>
+                          <span class="overlay-img-thumb font-icon-plus"></span>
+                      </a>
+                      <!-- Thumb Image and Description -->
+                        <img class="fix-image" src="img/luck.png" alt="Video">
+                  </li>
                         	<!-- End Item Project -->
 							<!-- Item Project and Filter Name -->
               <li class="item-thumbs span3 wedding">
@@ -278,6 +295,15 @@
                     <!-- Thumb Image and Description -->
                       <img class="fix-image" src="img/ganon.png" alt="Video">
                 </li>
+                <li class="item-thumbs span3 informative">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Out of the Woodwork" href="https://www.youtube.com/watch?v=U33Bs42A_dk">
+                        <span class="overlay-img"></span>
+                          <span class="overlay-img-thumb font-icon-plus"></span>
+                      </a>
+                      <!-- Thumb Image and Description -->
+                        <img class="fix-image" src="img/woodwork.png" alt="Video">
+                  </li>
                 <!-- Item Project and Filter Name -->
                 <li class="item-thumbs span3 music">
                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -321,6 +347,16 @@
                           <img class="fix-image" src="img/hometown.png" alt="Video">
                     </li>
                               <!-- End Item Project -->
+                      <li class="item-thumbs span3 commercial">
+                          <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                          <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Eagle Recycling" href="https://vimeo.com/132478529">
+                              <span class="overlay-img"></span>
+                              <span class="overlay-img-thumb font-icon-plus"></span>
+                          </a>
+                            <!-- Thumb Image and Description -->
+                          <img class="fix-image" src="img/recycle.png" alt="Video">
+                      </li>
+
                   <!-- Item Project and Filter Name -->
                   <li class="item-thumbs span3 commercial">
                       <!-- Fancybox - Gallery Enabled - Title - Full Image -->
@@ -343,6 +379,16 @@
                         <!-- Thumb Image and Description -->
                           <img class="fix-image" src="img/luckies.png" alt="Video">
                     </li>
+
+                    <li class="item-thumbs span3 informative">
+                        <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                        <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Just Like Me" href="https://vimeo.com/126947848">
+                            <span class="overlay-img"></span>
+                              <span class="overlay-img-thumb font-icon-plus"></span>
+                          </a>
+                          <!-- Thumb Image and Description -->
+                            <img class="fix-image" src="img/belikeme.png" alt="Video">
+                      </li>
                         	<!-- End Item Project -->
                         </ul>
                     </section>
@@ -373,7 +419,6 @@
     <!-- People -->
   <h4 class="about">ToeKneePalm Productions is a Maryland based videography company specializing in commercials, weddings, music videos, and promotional videos. The heart and soul of our company is to provide the most creative and original works of art that you will be proud to share with the world.</h4><br>
     <!-- End People -->
-    <iframe id="aboutVid" src="https://player.vimeo.com/video/120317742?title=0&byline=0&portrait=0" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>          </div>
 
 </div>
 </div>
@@ -425,7 +470,7 @@
                 <ul>
                     <li>Tony Palm</li>
                     <li><a href="mailto:tony@toekneepalm.com">tony@toekneepalm.com</a> </li>
-                    <li><a href="tel:808-343-1965">(808) 343-1965</a></li>
+                    <li><a href="tel:410-713-2017">(410) 713-2017</a></li>
                     <li>Tori Palm</li>
                     <li><a href="mailto:tori@toekneepalm.com">tori@toekneepalm.com</a> </li>
                     <li><a href="tel:410-713-9071">(410) 713-9071</a></li>
@@ -479,7 +524,6 @@
 <!-- Js -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
 <script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
-<script src="js/supersized.3.2.7.min.js"></script> <!-- Slider -->
 <script src="js/waypoints.js"></script> <!-- WayPoints -->
 <script src="js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
 <script src="js/jquery.isotope.js"></script> <!-- Isotope Filter -->
